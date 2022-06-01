@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-GameConcepts/[Ll]ibrary/
-GameConcepts/[Tt]emp/
-GameConcepts/[Oo]bj/
-GameConcepts/[Bb]uild/
-GameConcepts/[Bb]uilds/
-GameConcepts/[Ll]ogs/
-GameConcepts/[Mm]emoryCaptures/
+game-concepts-game/[Ll]ibrary/
+game-concepts-game/[Tt]emp/
+game-concepts-game/[Oo]bj/
+game-concepts-game/[Bb]uild/
+game-concepts-game/[Bb]uilds/
+game-concepts-game/[Ll]ogs/
+game-concepts-game/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

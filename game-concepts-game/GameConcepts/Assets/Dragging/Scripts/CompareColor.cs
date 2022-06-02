@@ -11,22 +11,15 @@ public class CompareColor : MonoBehaviour
     private Color currentColor;
     [SerializeField] private TMP_Text counter;
     private int score;
-    [SerializeField] private TMP_Text timer;
-    public float timeLeft = 20f;
-    private float _countDownAccumulated;
+
 
     private void Start()
     {
         colors = new List<Color>() {Color.red, Color.green, Color.blue};
         score = 0;
         PickNewColor();
-       
+        Timer.TimeEnded += GameOver;
 
-    }
-
-    private void Update()
-    {
-        UpdateTimer();
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -52,22 +45,11 @@ public class CompareColor : MonoBehaviour
         GetComponent<SpriteRenderer>().color = currentColor;
         
     }
-    
-    private void UpdateTimer()
+
+    private void GameOver()
     {
-        _countDownAccumulated += Time.deltaTime;
-        
-        if (_countDownAccumulated > 0.01f)
-        {
-            timeLeft -= 0.01f;
-            timer.text = timeLeft.ToString("00");
-            _countDownAccumulated = 0f;
-        }
-        if(timeLeft <= 0f)
-        {
-            timer.text = "GAME OVER";
-           
-        }
+        GetComponent<SpriteRenderer>().color = Color.black;
     }
+    
  
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bucket : MonoBehaviour
 {
     // Start is called before the first frame update
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         print("HIt");
         col.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;

@@ -21,12 +21,14 @@ public class Wipe : MonoBehaviour
       
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Dirt"))
         {
             GetComponent<SpriteRenderer>().color = GetComponent<SpriteRenderer>().color + new Color(0.015f,0.040f,0f,1f);
             cleanPower -= 0.005f;
+            if (cleanPower <= 0) cleanPower = 0;
+            
         }
     }
 }

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce8d746e-d5f6-4109-914f-22cfd288b61a" name="Changes" comment="" />
+    <list default="true" id="960a557d-cc1a-4045-a618-68f94d3c81cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +15,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A5WKiMKCDC1lofHkRrwqqjkTYF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,6 +68,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

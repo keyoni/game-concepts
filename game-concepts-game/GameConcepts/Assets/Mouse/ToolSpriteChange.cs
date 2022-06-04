@@ -10,7 +10,7 @@ namespace Mouse
         public Texture2D cursorTexture;
         
         public Vector2 hotSpot = Vector2.zero;
-        public CursorMode cursorMode = CursorMode.Auto;
+        public CursorMode cursorMode = CursorMode.ForceSoftware;
         
         void Start()
         {

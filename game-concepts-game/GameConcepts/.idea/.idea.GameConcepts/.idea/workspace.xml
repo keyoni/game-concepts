@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="960a557d-cc1a-4045-a618-68f94d3c81cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +53,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce8d746e-d5f6-4109-914f-22cfd288b61a" name="Changes" comment="" />
+      <changelist id="960a557d-cc1a-4045-a618-68f94d3c81cf" name="Changes" comment="" />
       <created>1654299873611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654299873611</updated>
       <workItem from="1654299878378" duration="5556000" />
+      <workItem from="1654642955427" duration="6727000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,8 @@ public class Dragable : MonoBehaviour
 {
    private Vector3 mouseStart;
    private Vector3 spriteStart;
-   private bool isHeld = false;
+   public bool isHeld = false;
+   //public event Action Released;
    
 
    private void OnMouseDown()
@@ -17,7 +18,7 @@ public class Dragable : MonoBehaviour
       isHeld = true;
       mouseStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
       spriteStart = this.transform.localPosition ;
-
+      
         
       }
 
@@ -31,6 +32,8 @@ public class Dragable : MonoBehaviour
 
    private void OnMouseUp()
    {
+      //Released?.Invoke();
+     // print("Dropped");
       isHeld = false;
    }
 }

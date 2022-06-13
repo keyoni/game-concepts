@@ -11,12 +11,14 @@ public class Rotatable : MonoBehaviour
 {
     private Vector3 mousePos;
     private Quaternion spriteStart;
-    private bool isHeld = false;
+    public bool isHeld = false;
     private Vector3 screenPos;
-    private float angleOffset;
+    public float angleOffset;
     public float currentAngle;
     public static event Action AngleChanged;
     public bool isLever;
+    public float max = -600;
+    public float min = 1000;
 
     private void Start()
     {
@@ -34,7 +36,7 @@ public class Rotatable : MonoBehaviour
         screenPos = Camera.main.WorldToScreenPoint(transform.position);
         Vector3 vec3 = Input.mousePosition - screenPos;
         angleOffset = (Mathf.Atan2(transform.right.y, transform.right.x) - Mathf.Atan2(vec3.y, vec3.x)) * Mathf.Rad2Deg;
-
+        
 
     }
     
@@ -42,7 +44,7 @@ public class Rotatable : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        print("MOVING" + this.gameObject.name);
+        //print("MOVING" + this.gameObject.name);
 
        Vector3 vec3 = Input.mousePosition - screenPos;
         float angle = Mathf.Atan2(vec3.y, vec3.x) * Mathf.Rad2Deg;
@@ -54,12 +56,17 @@ public class Rotatable : MonoBehaviour
         
 
         transform.eulerAngles = new Vector3(0, 0, angle + angleOffset);
-        //print(angle);
-        currentAngle = angle;
+        // print(angle);
+         //print("Angle+Offset: " + (angle + angleOffset));
+        // print("Angle-90" + (angle - 90));
+        currentAngle = angle + 180;
         AngleChanged?.Invoke();
-
+        //print("ANgle:" +angle);
+       // print(currentAngle);
+       // print("angleOffset" + angleOffset);
     }
 
+    // TODO: REFACTOR with new Angle Stuff
      float RotateLever(float angle)
     {
         if (angle > -180 && angle < -100)

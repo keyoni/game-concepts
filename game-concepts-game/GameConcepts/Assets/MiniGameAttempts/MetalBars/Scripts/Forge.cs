@@ -14,7 +14,7 @@ public class Forge : MonoBehaviour
 
     private String currentOreType;
 
-    private bool melting = false;
+  //private bool melting = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +42,7 @@ public class Forge : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ore"))
         {
-            if (other.gameObject.GetComponent<Dragable>().isHeld == false)
+            if (other.gameObject.GetComponent<Draggable>().isHeld == false)
             {
                 other.gameObject.GetComponent<Transform>().position = snapPoint.position;
                 if (!other.GetComponent<Ore>().getOreType().Equals(currentOreType))

@@ -3,10 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="960a557d-cc1a-4045-a618-68f94d3c81cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameConcepts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dragging/Scripts/Dragable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dragging/Scripts/Dragable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mouse/Sprites/Circle-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mouse/Sprites/Circle-01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rotatable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rotatable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ABCNodeManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ABCNodeManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActiveTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActiveTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorChangeable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorChangeable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorCompare2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorCompare2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorLever.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ColorLever.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CorrectLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CorrectLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dragging/Scripts/Dragable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dragging/Scripts/Dragable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Item.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Prefabs/GoldOre.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Prefabs/GoldOre.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Scripts/Anvil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Scripts/Anvil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Scripts/Forge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MiniGameAttempts/MetalBars/Scripts/Forge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ColorLever.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ColorLever.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/RotateFun.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/RotateFun.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/Sprites/Plank.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mouse/Sprites/Plank.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/Tool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/Tool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolAction.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolFollow.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolFollow.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolMiniGame.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolMiniGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mouse/ToolSpriteChange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResetNodes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResetNodes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rotatable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rotatable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square-01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WashBasin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WashBasin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WheelPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WheelPoint.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
@@ -15,6 +57,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="drag-practice-key" />
+      </map>
+    </option>
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -22,6 +71,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d8d38b92d94a4ff8a91e61d39c6d19cd15d000/e1/2d56a370/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +125,10 @@
       <workItem from="1654299878378" duration="5556000" />
       <workItem from="1654642955427" duration="7305000" />
       <workItem from="1654897650437" duration="17389000" />
-      <workItem from="1655067586907" duration="31482000" />
+      <workItem from="1655067586907" duration="32078000" />
+      <workItem from="1655359814330" duration="20477000" />
+      <workItem from="1655967884574" duration="2000000" />
+      <workItem from="1657051598644" duration="609000" />
     </task>
     <servers />
   </component>

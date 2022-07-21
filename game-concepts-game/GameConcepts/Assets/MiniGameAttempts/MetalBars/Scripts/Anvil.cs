@@ -20,7 +20,7 @@ public class Anvil : MonoBehaviour
     {
         if (occupied) return;
         if (!other.gameObject.CompareTag("Ore")) return;
-        if (other.gameObject.GetComponent<Dragable>().isHeld != false) return;
+        if (other.gameObject.GetComponent<Draggable>().isHeld != false) return;
         if (other.gameObject.GetComponent<Ore>().melted)
         {
             other.gameObject.GetComponent<Transform>().position = snapPoint.position;
